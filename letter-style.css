@@ -1,0 +1,60 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(img/FXIR2497.JPG);
+    padding: 0;
+    margin: 0;
+
+}
+
+#letter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.letter {
+    width: 60%;
+    background-color: #f3e2b3;
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #d2b48c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: rotate(-2deg);
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+.letter-header {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.letter-body {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+video{
+    padding-left: 300px;
+    padding-right: 100px;
+    padding-top: 700px;
+}
+
